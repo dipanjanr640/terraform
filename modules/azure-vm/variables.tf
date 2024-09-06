@@ -24,10 +24,10 @@ variable "vm_size" {
 }
 
 # Network interface ID (passed from the configuration calling the module)
-variable "network_interface_id" {
-  description = "The ID of the network interface to attach to the virtual machine."
-  type        = string
-}
+# variable "network_interface_id" {
+#   description = "The ID of the network interface to attach to the virtual machine."
+#   type        = string
+# }
 
 # Admin username for the VM
 variable "admin_username" {

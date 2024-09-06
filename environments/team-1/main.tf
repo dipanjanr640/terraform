@@ -1,5 +1,5 @@
 module "team1_vm" {
-  source = "../../modules/vm"  # Path to the module
+  source = "../../modules/azure-vm"  # Path to the module
 
   # Pass input variables
   vm_name              = var.vm_name
